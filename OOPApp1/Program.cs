@@ -1,4 +1,5 @@
 ﻿using System;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace OOPApp1
 {
@@ -16,7 +17,6 @@ namespace OOPApp1
 
         static void Main(string[] args)
         {
-            // Part 01
 
             #region Question01
             ////class → reference type → stored in heap → reference copy → supports inheritance
@@ -37,19 +37,26 @@ namespace OOPApp1
             #endregion
 
             #region Question02
-            //// public
+            //// public 
             //Student s = new Student();
             //s.Name = "Ahmed";
             //Console.WriteLine(s.Name);
 
-            ////privte
+            ////privte 
             //Student s = new Student();
             //s.SetName("Ahmed");
             //Console.WriteLine(s.GetName()); 
             #endregion
 
+            #region Question03
+            //Creating a Class Library project
+            //Writing public classes and methods
+            //Building the project to generate a DLL
+            //Adding a project reference to another application
+            //Using the library classes inside that application 
+            #endregion
 
         }
-    
+
     }
 }
