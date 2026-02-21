@@ -36,6 +36,19 @@ namespace OOPApp1
             //Console.WriteLine(p2.Name); // Mohamed 
             #endregion
 
+            #region Question02
+            //// public
+            //Student s = new Student();
+            //s.Name = "Ahmed";
+            //Console.WriteLine(s.Name);
+
+            ////privte
+            //Student s = new Student();
+            //s.SetName("Ahmed");
+            //Console.WriteLine(s.GetName()); 
+            #endregion
+
+
         }
     
     }
