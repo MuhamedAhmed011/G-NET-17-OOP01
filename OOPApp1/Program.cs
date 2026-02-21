@@ -1,5 +1,8 @@
 ﻿using System;
+using System.ComponentModel;
+using System.Runtime.Intrinsics.X86;
 using static System.Net.Mime.MediaTypeNames;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace OOPApp1
 {
@@ -55,6 +58,16 @@ namespace OOPApp1
             //Adding a project reference to another application
             //Using the library classes inside that application 
             #endregion
+
+            #region Question04
+            // A class library helps developers write code once and use it in many applications
+            // We Use Class Libraries To :
+            // reuse code in multiple projects without rewriting it
+            // organize large applications into smaller
+            // improve maintainability and make updates easier
+            // reduce duplication and increase efficiency 
+            #endregion
+
 
         }
 
