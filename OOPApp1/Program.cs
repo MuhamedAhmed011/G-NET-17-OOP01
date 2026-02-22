@@ -21,6 +21,7 @@ namespace OOPApp1
         static void Main(string[] args)
         {
 
+            #region Part01
             #region Question01
             ////class → reference type → stored in heap → reference copy → supports inheritance
             ////struct → value type → stored on stack → value copy → no inheritance
@@ -67,8 +68,43 @@ namespace OOPApp1
             // improve maintainability and make updates easier
             // reduce duplication and increase efficiency 
             #endregion
+            #endregion
 
+            #region Part02
+            //Console.Write("Enter Movie Name: ");
+            //string movie = Console.ReadLine();
 
+            //Console.Write("Enter Ticket Type (0 = Standard , 1 = VIP , 2 = IMAX ): ");
+            //TicketType type = (TicketType)int.Parse(Console.ReadLine());
+
+            //Console.Write("Enter Seat Row (A, B, C...): ");
+            //char row = char.Parse(Console.ReadLine().ToUpper());
+
+            //Console.Write("Enter Seat Number: ");
+            //int number = int.Parse(Console.ReadLine());
+
+            //Console.Write("Enter Price: ");
+            //double price = double.Parse(Console.ReadLine());
+
+            //Console.Write("Enter Discount Amount: ");
+            //double discount = double.Parse(Console.ReadLine());
+
+            //Ticket ticket = new Ticket(movie, type, new Seat(row, number), price);
+
+            //Console.WriteLine();
+            //ticket.PrintTicket(14);
+
+            //Console.WriteLine();
+            //Console.WriteLine("===== After Discount =====");
+            //Console.WriteLine($"Discount Before : {discount:F2}");
+
+            //ticket.ApplyDiscount(ref discount);
+
+            //Console.WriteLine($"Discount After  : {discount:F2}");
+            //Console.WriteLine();
+
+            //ticket.PrintTicket(14); 
+            #endregion
         }
 
     }
